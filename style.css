@@ -1,0 +1,434 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color: #C5C8BF;
+}
+
+
+/* Put your CSS Styles Below this Line */
+
+*{
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Rammetto One', cursive;
+
+}
+
+/* nav */
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #69725B;
+	font-size: 21px;
+	list-style-type: none;
+	width: 25%;
+}
+
+header ul li{
+	list-style-type: none;
+	color: #69725B;
+	font-size: 21px;
+}
+
+.nav-bar{
+	background-image: url("navbar.png");
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start; 
+	background-repeat: no-repeat;
+	background-position: top; 
+}
+
+.logo{
+	text-align: center;
+	margin-top: 24px;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+
+li{
+	margin: 50px;
+	margin-right: 10px;
+	margin-left: 10px; 
+	padding-right: 40px;
+}
+
+.text-style{
+	font-family: 'Rammetto One', cursive;
+	font-size: 21px;
+	color: #4c3316;
+	margin:  30px;
+	width: 40.5%; 
+}
+
+/* section 1 */
+.section1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 114px;
+}
+
+.left-beans img{
+	width: 70%;
+	float: left;
+}
+
+.right-beans img{
+	width: 70%;
+	float: right;
+
+}
+
+.about{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.about img{
+	padding-top: 48px;
+	width: 24%;
+	object-fit: contain;
+}
+
+.text-wrap{
+	width: 45%;
+	align-self: center;
+	
+}
+
+.about h2{
+	font-family:'Rammetto One';
+	font-size: 24px;
+	color: #69725b;
+}
+
+.about p{
+	font-family: 'Raleway', medium;
+	font size: 21px;
+	color: #4c3316;
+}
+
+.about h5{
+	font-family:'Rammetto One';
+	font size: 21px;
+	color: #4c3316;
+} 
+
+/* section 2 */
+.section2{
+	background-image: url("woodpanel.png");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 75px 10% 75px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start; 
+}
+
+.section2 img{
+	width: 55%;
+}
+
+.section2 h2{
+	font-family:'Rammetto One';
+	font-size: 24px;
+	color: #ede2d1;
+}
+
+.specials{
+	display: flex;
+}
+
+.coffee-drinks{
+	width: 30%;
+	text-align: center;
+}
+
+.section2 p{
+	font-family: 'Raleway', italic;
+	font-size: 18px;
+	color: #ede2d1;
+	text-align: center;
+}
+
+/* section 3 */
+.section3 h2{
+	font-family: 'Rammetto One';
+	color: #69725b;
+	font-size: 24px;
+	text-align: center;
+}
+
+.section3 h4{
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: #4c3316;
+	text-align: center;
+}
+
+.two-beans{
+	text-align: center;
+}
+
+.locations h4{
+	font-family: 'Raleway';
+	font-size: 19px;
+	color: #4c3316;
+	text-align: center;
+}
+
+.locations p{
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: #4c3316;
+	text-align: center;
+}
+
+.locations 1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.locations 2{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.locations 3{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.locations 4{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.locations-wrap{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* footer */
+.footer{
+	background-color: #ede2d1;
+	display: flex;
+	padding: 75px 10% 75px 10%;;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%; 
+}
+
+.footer h3{
+	font-family:'Rammetto One';
+	font-size: 24px;
+	color: #69725b; 
+}
+
+.contact h3{ 
+	font-family:'Rammetto One';
+	font-size: 24px;
+	color: #69725b;
+}
+
+.contact h5{
+	font-family: 'Raleway';
+	font-size: 18px;
+	color: #4c3316;
+}
+
+.email-signup{ 
+	width: 40%;
+}
+
+.email-wrap{
+	display: flex;
+}
+
+input{
+	width:  100%;
+	padding: 10px;
+	background-color: #f6f3ee;
+	border-left: 3px solid #735e59;
+	border-top: 3px solid #735e59;
+	font-family: 'Raleway';
+	font-size: 18px;
+}
+
+button{
+	background-color: #69725b;
+	border: 3px;
+	border-style: solid;
+	border-color: #735e59;
+	padding color: 10px;
+	width: 25%;
+	color: #ffff;
+}
+
+button: hover{
+	background-color: #735359;
+	color: #f6f3ee;
+}
+
+.contact{
+	width: 55%;
+}
+
+.contact-wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-wrap div{
+	width: 30%;
+} 
+
+/* Menu */
+.iced-coffee h2{
+	font-family: 'Rammetto One';
+	color: #553004;
+	margin: 30px;
+	margin-top: 190px;
+	margin-left: 150px;
+}
+
+.iced-coffee h4{
+	font-family: 'Red Rose';
+	margin-left: 30px;
+	color: #553004;
+	margin-left: 150px;
+}
+
+.iced-coffee p{
+	font-family: 'Red Rose';
+	margin-top: -20px;
+	color: #553004;
+	margin-left: 150px;
+}
+
+.drinks h4{
+	font-family: 'Red Rose';
+	color: #553004;
+	margin-left: 150px;
+	font-size: 21px;
+	margin-top: 45px;
+}
+
+.bites h2{
+	font-family: 'Rammetto One';
+	color: #697259;
+	margin: 30px;
+	margin-top: 150px;
+	margin-left: 460px;
+}
+
+.bites h4{
+	font-family: 'Red Rose';
+	color: #697259;
+	font-size: 21px;
+	margin-left: 460px;
+
+}
+
+.bites p{
+	font-family: 'Red Rose';
+	color: #553004;
+	margin-top: -20px;
+	margin-left: 460px;
+	margin-bottom: 30px;
+}
+
+.bites-2{
+	margin-top: 45px;
+
+}
+
+.muffins h4{
+	font-family: 'Red Rose';
+	color: #697259;
+	margin-left: 460px;
+	margin-bottom: 60px;
+	padding-bottom: 0px;
+}
+
+
+.image-left img{
+	float: left;
+	width: 50%;
+	margin-left: -285px;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+}
+
+.dalonga-coffee img{
+	float: right;
+	width: 65%;
+	margin-right: -389px;
+	background-attachment: fixed; 
+	padding-bottom: 0px;
+}
+
+.section{
+	padding-bottom: 0px;
+}
+
+/* Job Application */
+.job-title h2{
+	margin-top: 190px;
+	margin-bottom: -165px;
+	text-align: center;
+	color: #553004;
+}
+
+.job-app{
+	display: flex;
+	margin: 30px;
+	margin-top: 190px;
+	justify-content: space-evenly;
+}	
+
+
+.job-app2{
+	display: flex;
+	margin: 30px;
+	margin-top: 0px;
+	justify-content: space-evenly;
+}
+
+
+.job-app label{
+	color: #553004;
+	font-family: 'Red Rose';
+}
+
+.job-app2 label{
+	color: #553004;
+	font-family: 'Red Rose';
+}
+
+.job-app2 p{
+	color: #553004;
+	font-family: 'Red Rose';
+}
+
+
+#jobs{
+	color: #553004;
+	font-family: 'Raleway';
+	font-size: 18px;
+	box-sizing: ;
+}
+
+
+
